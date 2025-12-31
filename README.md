@@ -65,7 +65,7 @@ pip install gymnasium
 ```
 
 
-### Trainging
+### Training
 We use Maze as an example to demonstrate the full pipeline: Data Preparation -> Training -> Inference -> Parsing -> Evaluation.
 First, download the **[base models](https://huggingface.co/yhx12/DiffThinker)**.
 ```code
