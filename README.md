@@ -9,8 +9,19 @@
 <br>
 
 **Code and models will be released gradually today (2025.12.31).**
-
+| Status | Task |
+| :---: | :--- |
+| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Training Code** |
+| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **FrozenLake** |
+| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Maze** |
+| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **TSP** |
+| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **Sudoku** |
+| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **Jigsaw** |
 </div>
+
+### Project Overview
+
+
 <br>
 
 ```text
@@ -26,22 +37,21 @@ DiffThinker/
 │   │   └── merge_ckpt.py
 │   ├── diffsynth/
 │   └── ...
-│
 ├── FrozenLake/
 ├── Maze/                       #example
 │   ├── 8_test/                 #test
-│   │   └── 8_1_001.png
-│   │   └── 8_1_001_solution.png
-│   │   └── 8_1_001             #metadata
-│   │   └── ...
+│   │   ├── 8_1_001.png
+│   │   ├── 8_1_001_solution.png
+│   │   ├── 8_1_001             #metadata
+│   │   ├── ...
 │   │   └── path.json           #ground-truth
 │   ├── 16_test/                #test
 │   ├── 32_test/                #test
 │   ├── eval/
-│   │   └── diffthinker.py      #infer
-│   │   └── parse_image.py      #parse
+│   │   ├── diffthinker.py      #infer
+│   │   ├── parse_image.py      #parse
 │   │   └── eval_path.py        #compare with answer
-│   │   └── gen_and_parse.sh
+│   │   ├── gen_and_parse.sh
 │   │   └── eval_path.sh
 │   ├── gen_image.py            #generate dataset
 │   ├── gen.txt                 #examples for gen_image.py
