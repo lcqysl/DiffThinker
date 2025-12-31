@@ -30,6 +30,11 @@ DiffThinker/
 ├── FrozenLake/
 ├── Maze/                       #example
 │   ├── 8_test/                 #test
+│   │   └── 8_1_001.png
+│   │   └── 8_1_001_solution.png
+│   │   └── 8_1_001             #metadata
+│   │   └── ...
+│   │   └── path.json           #ground-truth
 │   ├── 16_test/                #test
 │   ├── 32_test/                #test
 │   ├── eval/
@@ -39,6 +44,7 @@ DiffThinker/
 │   │   └── gen_and_parse.sh
 │   │   └── eval_path.sh
 │   ├── gen_image.py            #generate dataset
+│   ├── gen.txt                 #examples for gen_image.py
 │   ├── gen_csv.py              #generate metadata for training
 │   ├── ...
 ├── TSP/

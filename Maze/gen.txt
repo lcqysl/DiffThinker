@@ -1,0 +1,37 @@
+python gen_image.py --size 8 --num 2000 --min_len 1 --out ./8_train
+python gen_image.py --size 8 --num 2000 --min_len 6 --out ./8_train
+python gen_image.py --size 8 --num 2000 --min_len 11 --out ./8_train
+python gen_image.py --size 8 --num 2000 --min_len 16 --out ./8_train
+python gen_image.py --size 8 --num 2000 --min_len 21 --out ./8_train
+python gen_csv.py --dir ./8_train
+
+python gen_image.py --size 8 --num 20 --min_len 1 --out ./8_test
+python gen_image.py --size 8 --num 20 --min_len 6 --out ./8_test
+python gen_image.py --size 8 --num 20 --min_len 11 --out ./8_test
+python gen_image.py --size 8 --num 20 --min_len 16 --out ./8_test
+python gen_image.py --size 8 --num 20 --min_len 21 --out ./8_test
+
+python gen_image.py --size 16 --num 2000 --min_len 1 --out ./16_train
+python gen_image.py --size 16 --num 2000 --min_len 9 --out ./16_train
+python gen_image.py --size 16 --num 2000 --min_len 17 --out ./16_train
+python gen_image.py --size 16 --num 2000 --min_len 25 --out ./16_train
+python gen_image.py --size 16 --num 2000 --min_len 33 --out ./16_train
+python gen_csv.py --dir ./16_train
+
+python gen_image.py --size 16 --num 20 --min_len 1 --out ./16_test
+python gen_image.py --size 16 --num 20 --min_len 9 --out ./16_test
+python gen_image.py --size 16 --num 20 --min_len 17 --out ./16_test
+python gen_image.py --size 16 --num 20 --min_len 25 --out ./16_test
+python gen_image.py --size 16 --num 20 --min_len 33 --out ./16_test
+
+python gen_image.py --size 32 --num 2000 --min_len 1 --out ./32_train
+python gen_image.py --size 32 --num 2000 --min_len 14 --out ./32_train
+python gen_image.py --size 32 --num 2000 --min_len 27 --out ./32_train
+python gen_image.py --size 32 --num 4000 --min_len 90 --out ./32_train
+python gen_csv.py --dir ./32_train
+
+python gen_image.py --size 32 --num 20 --min_len 1 --out ./32_test
+python gen_image.py --size 32 --num 20 --min_len 14 --out ./32_test
+python gen_image.py --size 32 --num 20 --min_len 27 --out ./32_test
+python gen_image.py --size 32 --num 40 --min_len 90 --out ./32_test
+
