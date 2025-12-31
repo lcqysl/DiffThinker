@@ -1,0 +1,11 @@
+python gen_image.py --size 16 --num 100 --points 12 --out ./12_test
+python gen_image.py --size 16 --num 100 --points 15 --out ./15_test
+python gen_image.py --size 16 --num 100 --points 18 --out ./18_test
+
+python gen_image.py --size 16 --num 5000 --points 12 --out ./12_train
+python gen_image.py --size 16 --num 5000 --points 13 --out ./13_train
+python gen_image.py --size 16 --num 5000 --points 14 --out ./14_train
+python gen_image.py --size 16 --num 5000 --points 15 --out ./15_train
+python gen_image.py --size 16 --num 5000 --points 16 --out ./16_train
+python gen_image.py --size 16 --num 5000 --points 17 --out ./17_train
+

@@ -8,15 +8,6 @@
 
 <br>
 
-**Code and models will be released gradually today (2025.12.31).**
-| Status | Task |
-| :---: | :--- |
-| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Training Code** |
-| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **FrozenLake** |
-| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Maze** |
-| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **TSP** |
-| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **Sudoku** |
-| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **Jigsaw** |
 </div>
 
 ### Project Overview
@@ -76,7 +67,7 @@ pip install gymnasium
 
 ### Trainging
 We use Maze as an example to demonstrate the full pipeline: Data Preparation -> Training -> Inference -> Parsing -> Evaluation.
-First, download the **[pre-trained models](https://huggingface.co/yhx12/DiffThinker)**.
+First, download the **[base models](https://huggingface.co/yhx12/DiffThinker)**.
 ```code
 cd Maze
 
@@ -93,6 +84,7 @@ bash add/cmd/2509.sh
 ```
 
 ### Inference & Evaluation
+The test datasets used in our experiments is provided within each task's directory. We recommend using the same data to ensure the reproducibility of our results and to facilitate comparison with other models. If you wish to generate your own test data, please refer to the ```gen.txt``` file in each task directory.
 ```code
 cd Maze
 

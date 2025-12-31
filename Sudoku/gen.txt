@@ -1,0 +1,8 @@
+python gen_image.py --num 7500 --exist 30 --out ./30_train
+python gen_image.py --num 7500 --exist 35 --out ./35_train
+python gen_image.py --num 7500 --exist 40 --out ./40_train
+python gen_image.py --num 7500 --exist 45 --out ./45_train
+
+python gen_image.py --num 100 --exist 35 --out ./35_test
+python gen_image.py --num 100 --exist 40 --out ./40_test
+python gen_image.py --num 100 --exist 45 --out ./45_test

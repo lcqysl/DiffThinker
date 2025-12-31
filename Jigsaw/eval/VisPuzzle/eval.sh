@@ -1,0 +1,1 @@
+python eval/VisPuzzle/eval.py VisPuzzle/data.jsonl VisPuzzle_test/result/0_result.json

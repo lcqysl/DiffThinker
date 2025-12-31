@@ -1,0 +1,14 @@
+python gen_image.py --source_dir ../../COCO/divide/split_1 --num 4000 --size 1x2 --out ./1x2_train
+python gen_image.py --source_dir ../../COCO/divide/split_2 --num 4000 --size 1x3 --out ./1x3_train
+python gen_image.py --source_dir ../../COCO/divide/split_3 --num 4000 --size 2x1 --out ./2x1_train
+python gen_image.py --source_dir ../../COCO/divide/split_4 --num 4000 --size 3x1 --out ./3x1_train
+python gen_image.py --source_dir ../../COCO/divide/split_5 --num 4000 --size 2x2 --out ./2x2_train
+python gen_image.py --source_dir ../../COCO/divide/split_6 --num 5000 --size 3x3 --out ./3x3_train
+python gen_image.py --source_dir ../../COCO/divide/split_7 --num 5000 --size 4x4 --out ./4x4_train
+
+python gen_image.py --source_dir ../../COCO/divide/split_8 --num 100 --size 2x2 --out ./2x2_test
+python gen_image.py --source_dir ../../COCO/divide/split_9 --num 100 --size 3x3 --out ./3x3_test
+python gen_image.py --source_dir ../../COCO/divide/split_10 --num 100 --size 4x4 --out ./4x4_test
+
+
+
