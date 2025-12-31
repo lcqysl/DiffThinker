@@ -92,7 +92,7 @@ cd ../DiffSynth-Studio
 bash add/cmd/2509.sh
 ```
 
-#Inference & Evaluation
+### Inference & Evaluation
 ```code
 cd Maze
 
