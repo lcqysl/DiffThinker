@@ -25,10 +25,10 @@ DiffThinker/
 │   └── examples/
 │
 ├── FrozenLake/
-├── Maze/ 
+├── Maze/
 ├── TSP/
 ├── Sudoku/
-└── Jigsaw/ 
+└── Jigsaw/
 ```
 
 
