@@ -28,18 +28,18 @@ DiffThinker/
 │   └── ...
 │
 ├── FrozenLake/
-├── Maze/
-│   ├── 8_test/
-│   ├── 16_test/
-│   ├── 32_test/
+├── Maze/                       #example
+│   ├── 8_test/                 #test
+│   ├── 16_test/                #test
+│   ├── 32_test/                #test
 │   ├── eval/
-│   │   └── diffthinker.py
-│   │   └── eval_path.py
-│   │   └── parse_image.py
+│   │   └── diffthinker.py      #infer
+│   │   └── parse_image.py      #parse
+│   │   └── eval_path.py        #compare with answer
 │   │   └── gen_and_parse.sh
 │   │   └── eval_path.sh
-│   ├── gen_image.py
-│   ├── gen_csv.py
+│   ├── gen_image.py            #generate dataset
+│   ├── gen_csv.py              #generate metadata for training
 │   ├── ...
 ├── TSP/
 ├── Sudoku/
