@@ -10,26 +10,41 @@
 
 **Code and models will be released gradually today (2025.12.31).**
 
+</div>
 <br>
 
-<!-- ```text
+```text
 DiffThinker/
 ├── DiffSynth-Studio/
 │   ├── add/
 │   │   ├── cmd/
-│   │   │   ├── 2509/
-│   │   │   └── 2511/
+│   │   │   ├── 2509.sh     #train Qwen-Image-Edit-2509
+│   │   │   └── 2511.sh     #train Qwen-Image-Edit-2509
 │   │   ├── infer/
-│   │   └── merge_ckpt/
+│   │   │   ├── infer_with_middle
+│   │   │   └── infer.py       
+│   │   └── merge_ckpt.py
 │   ├── diffsynth/
-│   └── examples/
+│   └── ...
 │
 ├── FrozenLake/
 ├── Maze/
+│   ├── 8_test/
+│   ├── 16_test/
+│   ├── 32_test/
+│   ├── eval/
+│   │   └── diffthinker.py
+│   │   └── eval_path.py
+│   │   └── parse_image.py
+│   │   └── gen_and_parse.sh
+│   │   └── eval_path.sh
+│   ├── gen_image.py
+│   ├── gen_csv.py
+│   ├── ...
 ├── TSP/
 ├── Sudoku/
 └── Jigsaw/
-``` -->
+```
 
 
 
