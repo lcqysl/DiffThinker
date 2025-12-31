@@ -1,0 +1,4 @@
+This is a 6x6 map.
+The player is at: row 1, column 6;
+The hole(s) are at: Row 1, Column 2; Row 2, Column 3; Row 2, Column 5; Row 3, Column 2; Row 3, Column 4; Row 4, Column 4; Row 4, Column 5; Row 5, Column 1; Row 5, Column 2; Row 5, Column 5; Row 6, Column 1; Row 6, Column 2; Row 6, Column 3;
+The goal is at: Row 1, Column 5.

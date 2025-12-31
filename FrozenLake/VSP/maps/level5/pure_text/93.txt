@@ -1,0 +1,4 @@
+This is a 5x5 map.
+The player is at: row 2, column 2;
+The hole(s) are at: Row 1, Column 1; Row 2, Column 4; Row 3, Column 3; Row 5, Column 3; Row 5, Column 4;
+The goal is at: Row 3, Column 2.

@@ -1,0 +1,4 @@
+This is a 7x7 map.
+The player is at: row 4, column 2;
+The hole(s) are at: Row 1, Column 2; Row 2, Column 7; Row 3, Column 2; Row 4, Column 5; Row 4, Column 6; Row 4, Column 7; Row 6, Column 5; Row 7, Column 4;
+The goal is at: Row 3, Column 6.

@@ -1,0 +1,4 @@
+This is a 8x8 map.
+The player is at: row 4, column 6;
+The hole(s) are at: Row 1, Column 2; Row 1, Column 3; Row 1, Column 8; Row 3, Column 2; Row 3, Column 4; Row 3, Column 8; Row 4, Column 1; Row 4, Column 3; Row 4, Column 4; Row 4, Column 7; Row 4, Column 8; Row 6, Column 1; Row 6, Column 6; Row 6, Column 8; Row 8, Column 5; Row 8, Column 8;
+The goal is at: Row 5, Column 2.

@@ -1,0 +1,15 @@
+<Interpret>
+The player is at row 4, column 1, and the goal is at row 1, column 2.
+There is 1 hole. It is at: row 1, column 3.
+<Action Plan>
+- Moving Right (R). The player is now at row 4, column 2. This grid is safe.
+- Moving Up (U). The player is now at row 3, column 2. This grid is safe.
+- Moving Up (U). The player is now at row 2, column 2. This grid is safe.
+- Moving Up (U). The player is now at row 1, column 2. This grid is the goal, so we stop here.
+<Verification>
+1. Right to row 4, column 2 (safe)
+2. Up to row 3, column 2 (safe)
+3. Up to row 2, column 2 (safe)
+4. Up to row 1, column 2 (goal)
+<Output>
+Action plan: R,U,U,U

@@ -12,7 +12,7 @@
 | Status | Task |
 | :---: | :--- |
 | ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Training Code** |
-| ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **FrozenLake** |
+| ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **FrozenLake** |
 | ![Released](https://img.shields.io/badge/-%E2%9C%93-brightgreen) | **Maze** |
 | ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **TSP** |
 | ![Pending](https://img.shields.io/badge/-%20-lightgrey) | **Sudoku** |

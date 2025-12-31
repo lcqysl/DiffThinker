@@ -1,0 +1,17 @@
+<Interpret>
+The player is at row 7, column 4, and the goal is at row 5, column 1.
+There are 6 holes. They are at: row 1, column 5; row 2, column 3; row 3, column 5; row 3, column 7; row 4, column 7; row 7, column 6.
+<Action Plan>
+- Moving Up (U). The player is now at row 6, column 4. This grid is safe.
+- Moving Up (U). The player is now at row 5, column 4. This grid is safe.
+- Moving Left (L). The player is now at row 5, column 3. This grid is safe.
+- Moving Left (L). The player is now at row 5, column 2. This grid is safe.
+- Moving Left (L). The player is now at row 5, column 1. This grid is the goal, so we stop here.
+<Verification>
+1. Up to row 6, column 4 (safe)
+2. Up to row 5, column 4 (safe)
+3. Left to row 5, column 3 (safe)
+4. Left to row 5, column 2 (safe)
+5. Left to row 5, column 1 (goal)
+<Output>
+Action plan: U,U,L,L,L

@@ -1,0 +1,4 @@
+This is a 4x4 map.
+The player is at: row 2, column 4;
+The hole(s) are at: Row 3, Column 2; Row 4, Column 3;
+The goal is at: Row 4, Column 4.
