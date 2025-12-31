@@ -19,8 +19,8 @@ DiffThinker/
 ├── DiffSynth-Studio/
 │   ├── add/
 │   │   ├── cmd/
-│   │   │   ├── 2509.sh     #train Qwen-Image-Edit-2509
-│   │   │   └── 2511.sh     #train Qwen-Image-Edit-2509
+│   │   │   ├── 2509.sh         # train Qwen-Image-Edit-2509
+│   │   │   └── 2511.sh         # train Qwen-Image-Edit-2511
 │   │   ├── infer/
 │   │   │   ├── infer_with_middle
 │   │   │   └── infer.py       
@@ -28,24 +28,24 @@ DiffThinker/
 │   ├── diffsynth/
 │   └── ...
 ├── FrozenLake/
-├── Maze/                       #example
-│   ├── 8_test/                 #test
+├── Maze/                       # example
+│   ├── 8_test/                 # test
 │   │   ├── 8_1_001.png
 │   │   ├── 8_1_001_solution.png
-│   │   ├── 8_1_001.txt         #metadata
+│   │   ├── 8_1_001.txt         # metadata
 │   │   ├── ...
-│   │   └── path.json           #ground-truth
-│   ├── 16_test/                #test
-│   ├── 32_test/                #test
+│   │   └── path.json           # ground-truth
+│   ├── 16_test/                # test
+│   ├── 32_test/                # test
 │   ├── eval/
-│   │   ├── diffthinker.py      #infer
-│   │   ├── parse_image.py      #parse
-│   │   ├── eval_path.py        #compare with answer
+│   │   ├── diffthinker.py      # infer
+│   │   ├── parse_image.py      # parse
+│   │   ├── eval_path.py        # compare with ground-truth
 │   │   ├── gen_and_parse.sh
 │   │   └── eval_path.sh
-│   ├── gen_image.py            #generate dataset
-│   ├── gen.txt                 #examples for gen_image.py
-│   ├── gen_csv.py              #generate metadata for training
+│   ├── gen_image.py            # generate dataset
+│   ├── gen.txt                 # examples for gen_image.py
+│   ├── gen_csv.py              # generate metadata for training
 │   ├── ...
 ├── TSP/
 ├── Sudoku/
