@@ -42,7 +42,7 @@ DiffThinker/
 │   ├── 8_test/                 #test
 │   │   ├── 8_1_001.png
 │   │   ├── 8_1_001_solution.png
-│   │   ├── 8_1_001             #metadata
+│   │   ├── 8_1_001.txt         #metadata
 │   │   ├── ...
 │   │   └── path.json           #ground-truth
 │   ├── 16_test/                #test
