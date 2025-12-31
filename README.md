@@ -12,7 +12,7 @@
 
 <br>
 
-```text
+<!-- ```text
 DiffThinker/
 ├── DiffSynth-Studio/
 │   ├── add/
@@ -29,7 +29,7 @@ DiffThinker/
 ├── TSP/
 ├── Sudoku/
 └── Jigsaw/
-```
+``` -->
 
 
 
