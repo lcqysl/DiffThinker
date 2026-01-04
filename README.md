@@ -97,3 +97,13 @@ bash eval/eval_path.sh
 python ../DiffSynth-Studio/add/infer/infer.py
 python ../DiffSynth-Studio/add/infer/infer_with_middle.py
 ```
+### Citation
+If you find our work useful, please consider citing:
+```code
+@article{he2025diffthinker,
+  title={DiffThinker: Towards Generative Multimodal Reasoning with Diffusion Models},
+  author={He, Zefeng and Qu, Xiaoye and Li, Yafu and Zhu, Tong and Huang, Siyuan and Cheng, Yu},
+  journal={arXiv preprint arXiv:2512.24165},
+  year={2025}
+}
+```
